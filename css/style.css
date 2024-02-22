@@ -1,0 +1,1002 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: Helvetica;
+  src: url(..//font/Helvetica.ttf);
+}
+@font-face {
+  font-family: Recoleta-Regular;
+  src: url(..//font/Recoleta-RegularDEMO.otf);
+}
+
+/*========================== common css ===============================*/
+h1 {
+  font-size: 72px;
+  font-weight: 700;
+  color: #4f5d80;
+  font-family: Recoleta-Regular;
+}
+h2 {
+  font-size: 48px;
+  font-weight: 400;
+  color: #4f5d80;
+  font-family: Recoleta-Regular;
+}
+h3 {
+  font-family: Helvetica;
+}
+p {
+  font-size: 24px;
+  font-weight: 400;
+  color: #4f5d80;
+  font-family: Helvetica;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 400;
+  font-family: Helvetica;
+}
+ul li {
+  list-style: none;
+}
+a:hover {
+  text-decoration: none;
+  color: #4f5d80;
+}
+.section_padding {
+  padding: 80px 0px;
+}
+
+/* ================================== end common css ===============================*/
+
+/*========================= header section ==============================*/
+.header_section {
+  padding: 25px 0px;
+  width: 100%;
+}
+.navbar-expand-lg .navbar-collapse {
+  justify-content: end;
+}
+.nav-item a {
+  font-size: 16px;
+  color: #4f5d80;
+  font-weight: 400;
+}
+.nav-item {
+  padding: 0px 16px;
+}
+.get-quote a span {
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff6f5;
+}
+.get-quote {
+  position: relative;
+  left: 18px;
+}
+.default-btn {
+  z-index: 1;
+  padding: 15px 30px 16px;
+  line-height: 1;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  text-align: center;
+  background-color: #ff8d00;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+/*==================== end header ===================*/
+
+/*================ hero area ===================*/
+.hero_area {
+  width: 100%;
+  margin: 0;
+}
+.content_hero_area h1 {
+  color: #ff8d00;
+  line-height: 79px;
+}
+.content_hero_area h1 span {
+  color: #4f5d80;
+}
+.content_hero_area h3 {
+  font-size: 16px;
+  color: #4f5d80;
+  font-family: Helvetica;
+  line-height: 24px;
+  font-weight: 400;
+}
+.content_hero_area img {
+  padding-right: 10px;
+}
+.content_hero_area p {
+  font-size: 16;
+}
+/*==================== end hero area ================*/
+
+/*================= slider section ====================*/
+.slidr_section {
+  overflow: hidden;
+}
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: rotate(357deg);
+  overflow: hidden;
+}
+.swiper-wrapper {
+  transition-timing-function: linear !important;
+  position: relative;
+}
+.swiper-slide {
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  position: relative;
+  overflow: hidden;
+}
+.swiper-slide img {
+  width: 100%;
+}
+/*================= end slider section ====================*/
+
+/*================= end companies section ====================*/
+.companies_section {
+  width: 100%;
+  margin: 0;
+}
+.section_title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.section_title p {
+  line-height: 32px;
+}
+.content_box {
+  display: flex;
+  margin: 20px 0px;
+}
+.content_inner_content {
+  padding-left: 15px;
+}
+
+.content_inner_content h3 {
+  font-size: 30px;
+  line-height: 41px;
+  font-weight: 400;
+  color: #4f5d80;
+  font-family: Recoleta-Regular;
+}
+.content_inner_content p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #4f5d80;
+  padding-right: 60px;
+}
+/*======================end companies section ======================*/
+
+/*=================== moving company ===================*/
+
+.moving_company {
+  width: 100%;
+  margin: 0;
+  background: #f7f7f7;
+}
+
+.moving_company .section_title {
+  width: 68%;
+  margin: 0 auto;
+}
+
+.moving_company .section_title h2 span {
+  color: #ff8d00;
+}
+
+.moving_company .section_title a {
+  color: #ff8d00;
+  font-size: 24px;
+  line-height: 32px;
+}
+.inner_box_se {
+  margin-top: 40px;
+}
+.moving_img_box {
+  text-align: center;
+}
+.moving_img_box p {
+  font-size: 16px;
+  text-align: center;
+  line-height: 24px;
+  margin-top: 15px;
+}
+/*=================== end moving company ===================*/
+
+/*=================== pricing section ===================*/
+.pricing_section {
+  background: #f7f7f7;
+  padding-bottom: 80px;
+}
+
+.price_img_box img {
+  width: 745px;
+  margin-left: -15px;
+}
+.map_section_price {
+  margin-left: 300px;
+  padding: 30px 0px;
+}
+.inner_map {
+  padding: 10px 0px;
+}
+.inner_map ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+.inner_map ul li {
+  padding-right: 16px;
+}
+.inner_map ul li img {
+  width: 16px;
+}
+.inner_map ul li span {
+  font-size: 16px;
+  margin-left: 12px;
+  position: relative;
+  top: 1px;
+}
+.inner_map.log_mp {
+  padding: 6px 0px;
+}
+.inner_map ul li p {
+  font-size: 16px;
+  color: #4f5d80;
+  padding: 8px 0px;
+}
+.inner_map.log_mp li img {
+  width: 100px;
+}
+.social_media_box {
+  display: flex;
+  margin-top: 13px;
+}
+.inner_social_box ul {
+  display: flex;
+}
+.inner_social_box ul li {
+  padding: 4px 10px;
+}
+.inner_social_box ul li a {
+  font-size: 18px;
+  color: #ff8d00;
+}
+.text_box p {
+  font-size: 16px;
+  color: #4f5d80;
+  padding: 8px 0px;
+}
+.map_box_hn {
+  position: relative;
+}
+.text_map {
+  position: absolute;
+  left: 16px;
+  bottom: 8px;
+}
+.text_map h4 {
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.text_map p {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.price_content {
+  width: 72%;
+}
+ul.price_content_sbu {
+  padding: 0;
+}
+.price_content_sbu li {
+  color: #4f5d80;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  display: flex;
+}
+.price_content_sbu span {
+  font-size: 6px;
+  padding-right: 15px;
+}
+
+.price_content p {
+  color: #4f5d80;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.table_section {
+  margin-top: 25px;
+}
+td.table_two {
+  background: #efefef;
+}
+td.table_one {
+  width: 50%;
+  border-right: 1px solid #4f5d80;
+}
+.table_section th {
+  text-align: left;
+  color: #4f5d80 !important;
+  padding: 10px 25px !important;
+  border-right: 1px solid #4f5d80;
+  font-size: 36px;
+  font-weight: 400;
+  font-family: Recoleta-Regular;
+}
+.table_section tr {
+  border: 1px solid #4f5d80;
+}
+.bg_table {
+  background: #efefef !important;
+}
+.contant_box_inner {
+  margin-top: 36px;
+}
+.table_section .price_content_sbu {
+  padding: 10px 20px;
+}
+.price_bottom_content {
+  margin-top: 30px;
+}
+.price_bottom_content h2 {
+  color: #4f5d80;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 41px;
+}
+.price_bottom_content p {
+  padding-bottom: 10px;
+}
+
+.button_price {
+  margin-top: 25px;
+}
+.button_price a {
+  padding: 15px 40px;
+  border-radius: 8px;
+  background: #ff8d00;
+  color: #f7f7f7;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-right: 18px;
+  transition: 0.5s;
+}
+.button_price a:hover {
+  border: 1px solid #ff8d00;
+  background: #fff;
+  color: #ff8d00;
+  transition: 0.5s;
+}
+a.button_bn_pr {
+  border-radius: 8px;
+  border: 1px solid #ff8d00;
+  background: #fff;
+  color: #ff8d00;
+  transition: 0.5s;
+}
+a.button_bn_pr:hover {
+  background: #ff8d00;
+  transition: 0.5s;
+  color: #fff;
+}
+a.button_bn_pr i {
+  margin-left: 10px;
+  transform: rotate(38deg);
+  font-size: 15px;
+  margin-top: 8px;
+  position: relative;
+  top: 0px;
+}
+.price_section_tow {
+  padding: 80px 0;
+  overflow: hidden;
+}
+.price_section_tow .price_img_box img {
+  overflow: hidden;
+  position: relative;
+  left: 52px;
+}
+.price_section_tow .map_section_price {
+  margin-left: 0;
+}
+
+.price_section_tow .price_content {
+  width: 68%;
+  margin-left: 300px;
+}
+
+/*=================== end moving company ===================*/
+
+/*=================== conclusion company ===================*/
+.conclusion_section {
+  width: 100%;
+  margin: 0;
+}
+.box_conclistion {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.box_conclistion p {
+  color: #4f5d80;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.section_divder h2 {
+  text-align: center;
+}
+.content_inner_box {
+  margin: 36px 0px;
+}
+.inner_image_box {
+  position: relative;
+  overflow: hidden;
+  transition: 0.5s;
+  border-radius: 30px;
+}
+.inner_image_box:hover img {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.inner_image_box img {
+  width: 100%;
+  transition: 0.5s;
+}
+.content_con {
+  text-align: center;
+  padding: 20px 10px;
+}
+.content_con h3 {
+  color: #4f5d80;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 41px;
+}
+.content_con p {
+  font-size: 16px;
+}
+.content_con img {
+  padding-right: 10px;
+}
+.content_con a {
+  color: #ff8d00;
+  font-size: 24px;
+  line-height: 32px;
+}
+/*=================== end conclusion company ===================*/
+/*=================== faq section =====================*/
+.faq_section {
+  width: 100%;
+  margin: 0;
+}
+.title_box_faq {
+  text-align: center;
+}
+.accordion {
+  margin-top: 30px;
+}
+.accordion-item {
+  margin-bottom: 10px;
+  background: #f7f7f7;
+  border: none;
+}
+button.accordion-button {
+  background: #f7f7f7;
+  padding: 16px 24px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  font-family: Helvetica;
+  outline: none;
+}
+.accordion-button::after {
+  background-image: url(../image/chevron-right.svg);
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url(../image/chevron-right.svg);
+  transform: rotate(90deg);
+}
+.accordion-button:focus {
+  border: none;
+  border-color: #ff0;
+  box-shadow: none;
+}
+.accordion-button:not(.collapsed) {
+  background: none;
+}
+.accordion-body {
+  color: #4f5d80;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  font-family: Recoleta-Regular;
+}
+
+.faq_section a {
+  color: #ff8d00;
+  font-size: 24px;
+  line-height: 32px;
+}
+/*=================== end faq section =====================*/
+
+/*=================== authorities section ================*/
+.authorities_section {
+  width: 100%;
+  margin: 0;
+  background: #f7f7f7;
+}
+.authorities_section .section_title {
+  width: 65%;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+.authorities_content_box {
+  display: flex;
+}
+.content_inner {
+  padding-left: 32px;
+  padding-top: 7px;
+}
+.content_inner h3 {
+  color: #4f5d80;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 41px;
+  margin-bottom: 16px;
+}
+.content_inner p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.content_inner p strong {
+  font-weight: 400;
+  text-decoration: underline;
+}
+/*=================== end authorities section ================*/
+/*===================  moving companies section ================*/
+.moving_companies_section {
+  width: 100%;
+  margin: 0;
+}
+.content_box_hg {
+  padding-top: 20px;
+}
+.content_box_hg ul {
+  display: inline-block;
+}
+.content_box_hg ul li {
+  line-height: 30px;
+  margin-bottom: 8px;
+}
+.content_box_hg ul li a {
+  color: #4f5d80;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.content_box_hg ul li a i {
+  color: #ff8d00;
+  font-size: 18px;
+  padding-right: 10px;
+}
+.social_content {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  justify-content: center;
+}
+.social_content p {
+  color: #4f5d80;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+.social_content_kl ul {
+  display: flex;
+  padding: 0px 20px;
+}
+.social_content_kl ul li {
+  margin-right: 20px;
+}
+.social_content_kl ul li a {
+  color: #ff8d00;
+  font-size: 20px;
+}
+
+/*========================= end moving companies section ============================*/
+
+/*======================== testimonial section =================*/
+
+.testimonial_section {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.tsti_content_box {
+  display: flex;
+  background: #f7f7f7;
+  border-radius: 17px;
+  padding: 32px 20px;
+}
+.testi_img_box {
+  width: 370px;
+  margin-right: 27px;
+}
+.testi_img_box img {
+  width: 100%;
+}
+.testimonial_section .swiper {
+  height: 410px;
+}
+span.swiper-pagination-bullet {
+  font-size: 15px !important;
+  width: 12px;
+  height: 12px;
+  background: #f7f7f7;
+  border: 1px solid rgba(255, 141, 0, 0.4);
+}
+.swiper-pagination-bullet-active {
+  width: 24px !important;
+  height: 12px !important;
+  border-radius: 10px;
+  background: #ff8d00 !important;
+}
+.testi_content h3 {
+  color: #4f5d80;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-family: Recoleta-Regular;
+  line-height: 41px;
+}
+.testi_content h4 {
+  color: #4f5d80;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  font-family: Helvetica;
+}
+/*======================== end testimonial section =================*/
+
+/*======================== made easy section =================*/
+.made_easy_section {
+  width: 100%;
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.made_easy_section .section_title {
+  width: 650px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+.made_box {
+  text-align: center;
+}
+.made_easy_section .col-lg-4 {
+  height: 500px;
+}
+.made_box h3 {
+  color: #4f5d80;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 10px 0;
+}
+.made_easy_section .row {
+  position: relative;
+}
+.made_easy_section .row:before {
+  content: "";
+  position: absolute;
+  left: 190px;
+  top: 60px;
+  width: 100%;
+  height: 100%;
+  background-image: url(../image/vactor-line1.svg);
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+.made_easy_section .row:after {
+  content: "";
+  position: absolute;
+  /* right: -645px; */
+  top: 211px;
+  width: 100%;
+  height: 100%;
+  background-image: url(../image/vactor-line2.svg);
+  background-repeat: no-repeat;
+  z-index: -1;
+  left: 662px;
+  overflow: hidden;
+}
+.box_end {
+  margin-left: 107px;
+  position: relative;
+  top: -118px;
+}
+
+/*======================== end made easy section =================*/
+
+/*======================== what people say section =================*/
+.what_people_say {
+  width: 100%;
+  margin: 0;
+}
+.what_people_say .section_title span {
+  color: #ff8d00;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 41px;
+}
+.what_say_box {
+  text-align: center;
+  background-image: url(../image/shape-quat.svg);
+  padding: 60px 45px;
+  width: 90%;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 170px;
+}
+.what_say_box h3 {
+  color: #4f5d80;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 0;
+}
+.what_say_box h3 span {
+  padding-right: 10px;
+  top: -7px;
+  position: relative;
+}
+
+.what_people_say .col-lg-2 {
+  text-align: center;
+}
+.content_box_inner_bg h3 {
+  text-align: left;
+  color: #4f5d80;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 41px;
+}
+.content_box_inner_bg p {
+  text-align: left;
+}
+.row.box_inner_what {
+  padding: 0px 45px;
+}
+
+/*======================== end what people say section =================*/
+
+/*======================== footer top section =================*/
+
+.footer_top_section {
+  overflow: hidden;
+  width: 100%;
+  background: #f7f7f7;
+}
+
+.footer_box_content {
+  display: flex;
+  margin-bottom: 20px;
+}
+.content_box_bg {
+  padding-left: 22px;
+}
+.content_box_bg h3 {
+  color: #4f5d80;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.content_box_bg p {
+  color: #4f5d80;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.slider_box_inner .swiper-slide {
+  display: block;
+  height: 600px;
+  border-radius: 14px;
+}
+.slider_box_inner {
+  position: relative;
+  left: 64px;
+  overflow: hidden;
+}
+.silder_box_ng img {
+  position: relative;
+}
+.slider_content {
+  position: absolute;
+  bottom: 20px;
+  padding: 15px;
+}
+.slider_content h3 {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.slider_content a {
+  color: #ff8d00;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+/*======================== end footer top section =================*/
+
+.footer_section {
+  width: 100%;
+  margin: 0;
+  background: #ff8d00;
+}
+.footer_logo h2 {
+  color: #fff;
+  -webkit-text-stroke-width: 0.7202215790748596;
+  -webkit-text-stroke-color: #fff;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+.footer_logo h2 span {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.footer_logo p {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 28px 0px;
+  width: 270px;
+  line-height: 24px;
+}
+.footer_social {
+  display: inline-flex;
+  padding: 0;
+}
+.footer_social li {
+  margin-right: 32px;
+}
+.footer_social li a {
+  background: #fff;
+  padding: 12px 15px;
+  border-radius: 50px;
+  font-size: 20px;
+  color: #ff8d00;
+  transition: 0.5s;
+}
+.footer_social li a:hover {
+  background: #ff8d00;
+  color: #fff;
+  transition: 0.5s;
+}
+.footer_box_bg h2 {
+  color: #fff;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 24px;
+}
+.footer_box_bg ul {
+  padding: 0;
+}
+.footer_box_bg ul li {
+  line-height: 40px;
+}
+.footer_box_bg ul li a {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.footer_form {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+  position: relative;
+}
+.footer_form form {
+  flex-grow: 1;
+  display: flex;
+}
+.footer_form input {
+  background: #ffa433;
+  border: none;
+  padding: 20px 25px;
+  flex-grow: 2;
+  color: #fff;
+  font-family: Recoleta-Regular;
+  border-radius: 8px;
+  height: 50px;
+}
+.footer_form input::-webkit-input-placeholder {
+  color: #fff;
+}
+.footer_form input:focus {
+  outline: none;
+}
+.footer_form .btn-submit {
+  background: transparent;
+  border: none;
+  padding: 20px;
+  flex-grow: 1;
+  color: #5c7698;
+  font-weight: 700;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 12px;
+  position: absolute;
+  right: 5px;
+  bottom: -6px;
+}
+.footer_form .btn-submit:focus {
+  outline: none;
+}
