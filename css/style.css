@@ -25,7 +25,12 @@ h2 {
   font-family: Recoleta-Regular;
 }
 h3 {
-  font-family: Helvetica;
+  font-family: Recoleta-Regular;
+  color: #4F5D80;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 41px;
 }
 p {
   font-size: 24px;
@@ -226,14 +231,13 @@ a:hover {
   background: #f7f7f7;
   padding-bottom: 80px;
 }
-
 .price_img_box img {
-  width: 745px;
-  margin-left: -15px;
+    width: 747px;
+    margin-left: -15px;
 }
 .map_section_price {
-  margin-left: 300px;
-  padding: 30px 0px;
+    margin-left: 200px;
+    padding: 30px 0px;
 }
 .inner_map {
   padding: 10px 0px;
@@ -308,7 +312,8 @@ a:hover {
   line-height: 24px;
 }
 .price_content {
-  width: 72%;
+    width: 72%;
+    margin-left: 27px;
 }
 ul.price_content_sbu {
   padding: 0;
@@ -427,15 +432,15 @@ a.button_bn_pr i {
 .price_section_tow .price_img_box img {
   overflow: hidden;
   position: relative;
-  left: 52px;
+  
 }
 .price_section_tow .map_section_price {
   margin-left: 0;
 }
 
 .price_section_tow .price_content {
-  width: 68%;
-  margin-left: 300px;
+    width: 77%;
+    margin-left: 202px;
 }
 
 /*=================== end moving company ===================*/
@@ -763,7 +768,9 @@ span.swiper-pagination-bullet {
   position: relative;
   top: -118px;
 }
-
+.contant_box_inner h2 {
+    font-size: 30px;
+}
 /*======================== end made easy section =================*/
 
 /*======================== what people say section =================*/
